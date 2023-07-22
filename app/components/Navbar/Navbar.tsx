@@ -46,7 +46,7 @@ const Navbar = () => {
                                     alt="dsign-logo"
                                 />
                                 <img
-                                    className="hidden h-full w-full lg:block"
+                                    className="hidden h-full w-1/3 lg:block"
                                     src={'/assets/logo/logo.png'}
                                     alt="dsign-logo"
                                 />
