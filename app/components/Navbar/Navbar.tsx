@@ -42,12 +42,12 @@ const Navbar = () => {
                             <div className="flex flex-shrink-0 items-center">
                                 <img
                                     className="block h-12 w-40 lg:hidden"
-                                    src={'/assets/logo/logo.png'}
+                                    src={'../assets/logo/logo.png'}
                                     alt="nobl-logo"
                                 />
                                 <img
                                     className="hidden h-full w-1/3 lg:block"
-                                    src={'/assets/logo/logo.png'}
+                                    src={'../assets/logo/logo.png'}
                                     alt="nobl-logo"
                                 />
                             </div>
