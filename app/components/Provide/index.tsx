@@ -10,26 +10,26 @@ interface datatype {
 const Aboutdata: datatype[] = [
     {
         imgSrc: "/assets/provide/marketing.svg",
-        country: "Marketing",
-        paragraph: 'Follow a hashtag total posts, videos',
+        country: "Booking",
+        paragraph: 'Simplified enrolment for activities',
 
     },
     {
         imgSrc: "/assets/provide/graphic.svg",
-        country: "Graphic design",
-        paragraph: 'Follow a hashtag total posts, videos',
+        country: "Payments",
+        paragraph: 'Convenient payment processing',
 
     },
     {
         imgSrc: "/assets/provide/heaking.svg",
-        country: "Heaking",
-        paragraph: 'Follow a hashtag total posts, videos',
+        country: "Class Management",
+        paragraph: 'Track student information and attendance',
 
     },
     {
         imgSrc: "/assets/provide/uidesign.svg",
-        country: "UI/UX Design",
-        paragraph: 'Follow a hashtag total posts, videos',
+        country: "Customer Experience",
+        paragraph: 'Easy customer experience and onboarding',
     },
 ]
 

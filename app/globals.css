@@ -5,6 +5,10 @@
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 
+.outline-tiny {
+    outline: 1.5px solid rgba(0, 0, 0, 0.4); /* 70% opacity */
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }

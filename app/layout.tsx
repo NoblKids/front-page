@@ -1,6 +1,8 @@
 import './globals.css';
 import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/Footer';
+import logo from '../public/assets/logo/logo.png';
+import React from 'react';
 
 
 export const metadata = {
@@ -16,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
         <Footer />
       </body>
