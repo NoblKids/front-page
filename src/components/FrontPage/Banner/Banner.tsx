@@ -71,7 +71,7 @@ const Banner = () => {
 
                     <div className="mt-[250px]" ref={ref} >
                         <Image className={`mt-[30px] shadow-2xl ${isVisible ? 'opacity-100' : 'opacity-0'}`} 
-                        style={{ transition: 'opacity 1.0s' }}
+                        style={{ transition: 'opacity 0.6s' }}
                         src={dashboardImage} alt="banner-image" width={1200} height={598} />
                     </div>
 
