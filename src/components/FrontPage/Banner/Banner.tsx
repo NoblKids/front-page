@@ -76,13 +76,15 @@ const Banner = () => {
                     </div>
 
                     <div className="text-center mt-[50px]">
-                        <a type="button" className={`w-auto md:w-1/5 font-bold text-30px rounded-2xl text-white bg-[#37a4db] py-5 px-[20px] mt-2 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+                        <button type="button" className={`w-auto md:w-1/5 font-bold text-30px rounded-2xl text-white bg-[#37a4db] py-5 px-[20px] mt-2 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
                         style={{ transition: 'opacity 1.0s' }}
-                        href="public/FrontPage/Nobl.pdf"
-                        target="_blank"
-                        rel="noopener noreferrer">
+                        // PENDING ROUTING
+                        // href="public/FrontPage/Nobl.pdf"
+                        // target="_blank"
+                        // rel="noopener noreferrer"
+                        >
                             Learn More
-                        </a>
+                        </button>
                         
                         <button type="button" className={`w-auto md:w-1/5 font-medium text-30px ml-4 rounded-2xl mt-2 text-blue transition duration-150 ease-in-out py-5 px-[20px] border border-lightgrey ${isVisible ? 'opacity-100' : 'opacity-0'}`}
                         style={{ transition: 'opacity 1.0s' }}
