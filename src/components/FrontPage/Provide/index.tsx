@@ -78,7 +78,7 @@ const Provide = () => {
 
                     {/* COLUMN-2 */}
                     <div className={`col-span-6 lg:col-span-5 ${isVisible ? 'opacity-100' : 'opacity-0'}`} 
-                        style={{ transition: 'opacity 2s' }} ref={ref}>
+                        style={{ transition: 'opacity 0.5s' }} ref={ref}>
                         <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-16 gap-y-10 lg:gap-x-40 px-10 py-12 bg-bluebg rounded-3xl'>
                             {Aboutdata.map((item, i) => (
                                 <div key={i} className='bg-white rounded-3xl lg:-ml-32 p-6 shadow-xl'>
