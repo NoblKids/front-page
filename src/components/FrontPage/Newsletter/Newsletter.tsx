@@ -3,7 +3,7 @@ import Image from "next/image";
 const Newsletter = () => {
     return (
         <div className='mt-32 relative '>
-            <div className="mx-auto w-3/5 bg-blue-500 rounded-3xl">
+            <div className="mx-auto w-auto md:w-3/5 bg-blue-500 rounded-3xl">
                 <div className="">
 
                     {/* COLUMN-1 */}

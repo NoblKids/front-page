@@ -11,7 +11,6 @@ const poppins = Poppins({
 export const metadata = {
   title: "NoblKids",
   description: "",
-  viewport: 'width=1440, initial-scale=2'
 };
 
 export default function RootLayout({

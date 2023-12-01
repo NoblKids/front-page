@@ -58,7 +58,7 @@ const Banner = () => {
 
                     <div className="mt-[75px] flex justify-center">
                         <p
-                            className="text-center w-1/3 rounded-2xl font-bold hover:bg-[#FDAF39] hover:text-white text-white text-2xl bg-[#FBBB5B] py-5 px-10 mt-2'"
+                            className="text-center w-auto md:w-1/3 rounded-2xl font-bold hover:bg-[#FDAF39] hover:text-white text-white text-base md:text-2xl bg-[#FBBB5B] py-5 px-10 mt-2"
                         
                         >
                        App Under Construction
@@ -76,7 +76,7 @@ const Banner = () => {
                     </div>
 
                     <div className="text-center mt-[50px]">
-                        <a type="button" className={`w-1/5 font-bold text-30px rounded-2xl text-white bg-[#37a4db] py-5 px-[60px] mt-2 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+                        <a type="button" className={`w-auto md:w-1/5 font-bold text-30px rounded-2xl text-white bg-[#37a4db] py-5 px-[20px] mt-2 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
                         style={{ transition: 'opacity 1.0s' }}
                         href="public/FrontPage/Nobl.pdf"
                         target="_blank"
@@ -84,7 +84,7 @@ const Banner = () => {
                             Learn More
                         </a>
                         
-                        <button type="button" className={`w-1/5 font-medium text-30px ml-4 rounded-2xl mt-2 text-blue transition duration-150 ease-in-out py-5 px-10 border border-lightgrey ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+                        <button type="button" className={`w-auto md:w-1/5 font-medium text-30px ml-4 rounded-2xl mt-2 text-blue transition duration-150 ease-in-out py-5 px-[20px] border border-lightgrey ${isVisible ? 'opacity-100' : 'opacity-0'}`}
                         style={{ transition: 'opacity 1.0s' }}
                         onClick={scrollToBottom}>
                             Contact Us

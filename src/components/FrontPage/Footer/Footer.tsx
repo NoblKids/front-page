@@ -32,10 +32,10 @@ const footer = () => {
                             <Image src={mask} alt="mask-icon" width={24} height={24} />
                             <h5 className="text-base font-normal text-white">Toronto, ON</h5>
                         </div>
-                        <div className="flex gap-2">
+                        {/* <div className="flex gap-2 pr-5">
                             <Image src={email} alt="email-icon" width={24} height={24} />
                             <h5 className="text-base font-normal text-white">support@noblkids.com</h5>
-                        </div>
+                        </div> */}
                     </div>
 
                 {/* </div> */}
@@ -43,7 +43,7 @@ const footer = () => {
                 {/* All Rights Reserved */}
 
                 <div className='py-10 mt-10 lg:flex items-center justify-between border-t border-t-bordertop'>
-                    <h4 className='flex m-auto align-center text-white text-md align-center font-medium'>@2023 NoblKids , All Rights Reserved</h4>
+                    <h4 className='flex w-auto m-auto align-center justify-center text-white text-md font-medium'>© 2023 NoblKids | All Rights Reserved</h4>
                     <div className="flex gap-5 mt-5 lg:mt-0 justify-center lg:justify-start">
                         {/* <h4 className='text-offwhite text-sm font-normal'><Link href="/" target="_blank">Privacy policy</Link></h4>
                         <div className="h-5 bg-bordertop w-0.5"></div>
